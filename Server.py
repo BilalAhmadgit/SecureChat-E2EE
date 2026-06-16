@@ -7,7 +7,7 @@ shared_keys = {}
 BUFFER_SIZE = 4096
 
 HOST = gethostbyname(gethostname())  # dynamically get local IP address
-PORT = 42000         # server PORT (as per your latest setup)
+PORT = 42000          # server PORT (as per your latest setup)
 ADDRESS = (HOST, PORT)
 
 SERVER = socket(AF_INET, SOCK_STREAM)
