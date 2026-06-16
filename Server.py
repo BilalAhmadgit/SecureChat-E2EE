@@ -19,7 +19,7 @@ print(f"\n[SERVER STARTED] Listening on {HOST}:{PORT}")
 print("[WAITING] Waiting for clients to connect...\n")
 
 def handle_client(client, addr):
-    try:
+    try: 
         print(f"[NEW CONNECTION] Client from {addr} connected.")
 
         # Key exchange
